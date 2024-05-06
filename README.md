@@ -36,16 +36,3 @@ Create a `.env` file in the root directory and add the following variables:
 - **MongoDB:** This project uses MongoDB to store location data. Make sure to have a MongoDB instance set up and provide the connection URI in the `.env` file.
 - **OpenWeatherMap API:** The API fetches real-time weather data from the OpenWeatherMap API. You need to sign up for an API key and provide it in the `.env` file.
 
-## Criteria Evaluation
-
-1. **Correctness and functionality of API endpoints:** The endpoints are correctly implemented and integrated with external services. They provide accurate weather forecasts and handle location management operations effectively.
-
-2. **Handling of location management and real-time data retrieval:** Location management is properly handled with CRUD operations, and real-time weather data is retrieved accurately from the external service.
-
-3. **Consistency with RESTful API design principles:** The API follows RESTful design principles with clear resource naming and proper usage of HTTP methods for CRUD operations.
-
-4. **Error handling:** Robust error handling is implemented for scenarios like unavailable services or invalid data input. The API returns appropriate HTTP status codes and error messages.
-
-5. **Efficiency and caching strategies:** Caching is implemented to reduce database queries and external API calls, improving response time and efficiency. Real-time data usage ensures accurate weather forecasts, and caching strategies optimize performance.
-
-Feel free to customize the README file further to include any additional details specific to your project.
